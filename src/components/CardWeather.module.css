@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cardWeather {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  width: 21.3rem;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.cardTitle {
+  font-size: 2rem;
+}
+
+.today {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+}
+
+.subTitle {
+  margin: 0.5rem 0;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.weatherIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.icon img {
+  width: 8rem;
+}
+
+.iconDesc {
+  font-size: 1.5rem;
+}
+
+.cardList {
+  list-style: none;
+}
+
+.cardList li {
+  margin: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.cardList li span {
+  font-weight: bold;
+}
+
+.button {
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 1rem 0;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+@media (max-width: 740px) {
+  .cardWeather {
+    margin: 2rem auto;
+  }
+}
